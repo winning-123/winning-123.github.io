@@ -133,3 +133,69 @@ ul li a:hover {
     background-color: #fff;
     color: #000;
 }
+
+.explore-section,
+.journey-section {
+    padding: 90px 20px;
+    text-align: center;
+}
+
+.explore-section {
+    background-color: #f5f1e8;
+    color: #263326;
+}
+
+.journey-section {
+    background-color: #263326;
+    color: #fff;
+}
+
+.explore-section h2,
+.journey-section h2 {
+    margin-bottom: 18px;
+    font-family: cursive;
+    font-size: 38px;
+}
+
+.explore-section p,
+.journey-section p {
+    max-width: 620px;
+    margin: 0 auto 28px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.explore-section .btn,
+.journey-section .btn {
+    display: inline-block;
+    border-color: #ff7200;
+    background-color: #ff7200;
+    color: #fff;
+}
+
+.explore-section .btn:hover,
+.journey-section .btn:hover {
+    background-color: #fff;
+    color: #263326;
+}
+
+.site-footer {
+    padding: 24px 20px;
+    background-color: #151d15;
+    color: #d9e0d4;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+
+    .explore-section,
+    .journey-section {
+        padding: 65px 20px;
+    }
+
+    .explore-section h2,
+    .journey-section h2 {
+        font-size: 30px;
+    }
+}
